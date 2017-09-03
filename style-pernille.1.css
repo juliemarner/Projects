@@ -1,0 +1,302 @@
+           ul {
+                font-family: arial, sans-serif;
+                font-size: 14px;
+                margin-top: 45px;
+                padding: 0;
+                list-style: none;
+            }
+            li ul {display: none; margin-top: 0;}
+            ul li {
+                float: left; 
+                position: relative;
+            }
+            li:hover ul {
+                display: block;
+                position: absolute; 
+            }
+            li:hover li {
+                float: none;
+                white-space: nowrap;
+            }
+            ul li a {
+                text-decoration: none;
+                background: white;
+                color: black;
+                padding: 5px 50px;
+                display: block;
+                border-top: 1px solid white;
+                margin-left: 1px; 
+            }
+            ul li a:hover {background:skyblue;}
+
+            body {
+                font-family: arial, sans-serif;
+                font-size: 0.7em;
+                background-color: white;
+                
+            }
+                .wrapper { 
+                display: flex; /* gør at de små kasser opfører sig som flex-items */
+                width: 850px;
+                flex-wrap: wrap; /* det gør at den tilpasser siden i forhold til størrelse */
+                justify-content: space-around;
+                margin: 0 auto;
+            }
+            .item {
+                background: #ddd;
+                outline: 2px none;
+                margin-bottom: 0px;
+                text-align: inherit;
+              
+                
+            }
+            .header {
+                width: 81%;
+                padding-top: 0;
+                background: none;
+                
+            }
+             .logo { 
+                 width: 19%;
+                height: 20px;
+                 background: none; }
+            
+            .hovedmenu{
+                width: 79%;
+                height: 40px;
+                background: none;}
+            
+            .footer {
+                width: 99%;
+                height: 60px;
+                margin-top: 25px;
+                background-color: black;
+            }
+            
+            #menu {
+                margin: 0;
+                padding: 0px 0 0 10px;
+                background:;
+                height: 50px;
+
+            }
+            #menu li {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: inline;
+                font-family: sans-serif;
+                font-size: 0.8em;
+              
+            }
+            #menu a{
+                float: left;
+                line-height: 14px;
+                font-weight:;
+                margin: 0 10px 0 10px;
+                color: black;
+                font-size: 18px;
+                text-decoration: none;
+                border-left:1px solid white;
+                border-right:1px solid white;
+                padding: 0 15px 0 15px;
+                
+       
+            }
+            #menu a:hover {
+                border-bottom: 2px solid white;
+                padding-bottom: 1px;
+                color: orangered;
+            }
+            
+            .active {
+                border-bottom: 2px solid white;
+                padding-bottom: 2px;
+                color: orangered;
+    
+              }
+.one {
+    margin-top: 50px;}
+.two {
+    margin-top: 50px;}
+.three {
+    margin-top: 50px;}
+.four {
+    margin-top: 50px;}
+.five {
+    margin-top: 50px;}
+.six {
+    margin-top: 50px;}
+.seven {
+    margin-top: 50px;}
+.eight {
+    margin-top: 50px;}
+.nine {
+    margin-top: 50px;}
+
+
+.billedebook {
+    width: 69%;
+    height: 1700px;
+    background-color: white;
+}
+.rubrik {
+    width: 20%;
+    background:black;
+}
+p{
+    font-size: 15px;
+    line-height: 130%;
+    font-family: sans-serif;
+    
+    }
+.tekst p{
+    margin: 20px 0 2px 0;
+    font-weight: 300;
+    color: black;
+    text-align: justify;
+    
+}
+.storkasse p{
+    margin: 40px 0 2px 0;
+    font-weight: 400;
+    font-weight: 300;
+    color: gray;
+    color: black;
+    text-align: justify;}
+    
+    }
+.bredkasse{
+    width: 700px;
+    text-align: center;
+     
+    }
+.bredkasse p{
+    text-align: justify;  
+    }
+
+.trump {width: 360px;}
+ 
+.citat {width: 340px;
+        float: right;
+        font-family: serif;
+        font-size: 3.5em;}   
+
+.cv     {width: 400px;
+        float: right;
+        margin-top: -360px;}
+
+.linked {width: 800px;
+        float: right;
+        text-align: right;
+        text-align: right;}
+.twit   {width: 800px;
+        float: left;
+        text-align: left;
+        text-align: left;}
+
+.kontakt {width: 320px;
+        float: right;      
+        text-align: left;
+        color: gray;}
+
+.contact{
+    width: 99%;
+    height: 100px;
+    padding: 0 5px 0 150px;
+    background-color: black;
+}
+.book {
+    width: 49%;
+    height: 350px;
+    background-color: black;
+}
+.lectures {
+     width: 49%;
+    height: inherit;
+    background-color: black;
+    
+    
+}
+.headerbil {
+    height: 60px;
+    width: 400px;}
+.knap{
+margin-top: 11px;
+padding:0 5px 0 50px;}
+
+.lectekst {
+    width: 69%;
+    height: 500px;
+    padding: 0 5px 0 15px;
+    background-color: black;}
+
+.linkbook{
+    width: 99%;
+    height: 20px;
+    font-size: 700;
+    display: none;
+}
+
+.linkbook a{
+    float:left;
+    padding-left: 10px;
+}
+a   {color: skyblue;
+    text-decoration: none;
+}
+h1, h3, h4, h5{
+    text-align: left;
+    color: grey;
+    font-size: 3em;
+    font-weight: 10;
+    font-family: sans-serif;
+   
+}
+
+h2{ text-align: left;
+    color: black;
+    font-size: 1.8em;
+
+    
+}
+h5{
+    font-size: 0.9em;
+}
+.forms{
+    padding-left:150px;
+}
+.ultra{
+    padding-left: 52px;
+}
+.ikkelink{
+    color: white;
+    font-size: 1.2em;   
+}
+.billede{
+    width: 50%;     
+}
+.tekst{
+    float: left;   
+    width: 400px;}
+
+.bund  {width: 0px;
+        padding-right: 760px;
+        margin-top: 2px;
+        vertical-align: bottom;
+float: inherit;}
+  
+
+   
+.link{color: black;}
+
+.a  {color: gray;
+    text-decoration: underline;}
+    a: visited  {
+    color: black;
+    text-decoration: none;}
+    a: hover  {
+    color: green;
+    text-decoration: none;}
+   
+

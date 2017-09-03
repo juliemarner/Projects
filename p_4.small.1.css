@@ -1,0 +1,147 @@
+.wrapper { 
+                display: flex; /* gør at de små kasser opfører sig som flex-items */
+                flex-wrap: wrap; /* det gør at den tilpasser siden i forhold til størrelse */
+                
+                width: 320px;
+    }
+
+.billedevenstre{
+    display:none;
+    
+}
+
+.billedehøjre {
+    width: 70%;
+    height: 400px;
+    padding-right: 180px;
+}
+
+            #menu {
+                margin: 16px 0 0 0;
+                padding: 0 0 20px 10px;
+                
+
+            }
+            #menu li {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: inline;
+                font-family: sans-serif;
+                font-size: 0.8em;
+                
+                
+                
+            }
+            #menu a{
+                float: center;
+                line-height: 14px;
+                font-weight: 700;
+                margin: 0 3px 0 3px;
+                color: white;
+                font-size: 12px;
+                text-decoration: none;
+                padding: 0;
+                border-left:1px none white;
+                border-right:1px none white;
+            }
+
+.lecindhold {
+    width: 99%;
+    height: 150px;
+}
+
+.lectekst {
+    width: 99%;
+    height: 650px;
+    
+}
+
+.rubrik {
+    width: 29%;
+    display: none;
+}
+
+.billedebook {
+    width: 99%;
+    height: 400px;
+}
+
+.linkbook{
+    width: 99%;
+    height: 20px;
+    font-size: 700;
+    display: block;
+}
+
+.linkbook a{
+    float:left;
+    padding-left: 10px;
+    
+}
+            .picture {
+                background: none;
+                outline: 2px none #ccc;
+                margin: 0 5px 0px 0;
+                text-align: center;
+                padding: 1px;
+                width: 232px; 
+                height: 174px;
+              }
+
+.one{
+    margin-top: 20px;
+    
+}
+.one, .three, .five, .seven, .nine, .eleven, .thirteen, .fithteen, .two, .four, .six, .eight, .ten, .twelve, .fourteen, .sixteen{
+    margin-bottom: 10px;
+}
+
+.biobillede {
+    width: 29%;
+    height: 400px;
+    display: none;
+}
+.biotekst {
+    width: 99%;
+    height: 800px;
+}
+.biotekstbillede{
+    width: ;
+    height: 50px;
+    display: block;
+    float:left;
+}
+.footer{
+    display:none;
+}
+.book {
+    width: 99%;
+    height: 300px;
+}
+.lectures {
+    width: 99%;
+    height: 350px;
+}
+
+.headerbil {
+    padding-top: 10px;
+    height: 50px;
+    width: 280px;
+} 
+
+.knap{
+margin-top: 11px;
+padding-left:30px;
+}
+
+.contact {
+    height: 150px;
+    padding: 0 20px 0 30px;
+    margin-left: 20px; 
+    
+}   
+.billedebook {
+    width: 99%;
+    height: 1700px;
+}
